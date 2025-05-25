@@ -1,0 +1,1 @@
+from pyiron_nodes import no_annotations
