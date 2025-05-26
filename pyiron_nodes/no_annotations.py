@@ -1,5 +1,5 @@
 from pyiron_workflow import Workflow, as_function_node, as_dataclass_node
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from semantikon.typing import u
 from semantikon.converter import semantikon_class
 import typing

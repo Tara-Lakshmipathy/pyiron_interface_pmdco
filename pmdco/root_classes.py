@@ -116,6 +116,11 @@ class Plan(RealizableEntity):
     def IRI(self):
         return URIRef("https://w3id.org/pmd/co/PMD_0000014")
 
+class ProjectPlan(Plan):
+    @property
+    def IRI(self):
+        return URIRef("https://w3id.org/pmd/co/ProjectPlanPending")
+
 #--------------------------------------------------------------------------------------------------
 
 class Process(Occurent):

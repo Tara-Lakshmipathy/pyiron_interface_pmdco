@@ -11,6 +11,11 @@ class HasContinuantPart(Relation):
     def IRI(self):
         return URIRef("http://purl.obolibrary.org/obo/BFO_0000178")
 
+class HasOcccurentPart(Relation):
+    @property
+    def IRI(self):
+        return URIRef("http://purl.obolibrary.org/obo/BFO_0000117")
+
 class Realizes(Relation):
     @property
     def IRI(self):
